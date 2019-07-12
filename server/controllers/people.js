@@ -51,16 +51,5 @@ module.exports = {
             }
         })
     },
-
-    remove: function(req, res) {
-        People.remove({name: req.params.url_name}, function(err) {
-            if(err) {
-                console.log('could not delete');
-            }
-            else {
-                console.log('deleted');
-            }
-        })
-    },
 }
 

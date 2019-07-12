@@ -1,3 +1,4 @@
+# All files listed will be ignored
 /node_modules
 api.zip
 package-lock.json
